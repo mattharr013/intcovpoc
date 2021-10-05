@@ -7,8 +7,15 @@ This is based off the idea presented in [this](https://www.ory.sh/golang-go-code
 ## Example usage
 
 ```bash
+# install the required tools (need to do this before the other commands will work).
 make deps
+
+# run all coverage
 make coverage
+
+# run coverage for a specific package
+make code/coverage.txt
+make strcheck/coverage.txt
 ```
 
 
